@@ -1,0 +1,508 @@
+{
+  "environment": {
+    "run_utc": "2026-10-06 15:59 UTC",
+    "python": "3.11.16",
+    "disk_free_gb": 91.3,
+    "runner": "Linux"
+  },
+  "results": [
+    {
+      "source": "FracFocus data download page",
+      "kind": "crawl",
+      "page": {
+        "url": "https://www.fracfocus.org/data-download",
+        "first_bytes": "<!DOCTYPE html>\r\n<html lang=\"en-US\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\r\n    <title></title>\r\n    <meta con",
+        "status": 200,
+        "final_url": "https://www.fracfocus.org/data-download",
+        "content_type": "text/html; charset=utf-8",
+        "size_mb": null,
+        "last_modified": null
+      },
+      "candidate_links": 7,
+      "files": [
+        {
+          "text": "Download SQL Data",
+          "url": "https://www.fracfocusdata.org/digitaldownload/fracfocusdata.zip",
+          "status": 200,
+          "final_url": "https://www.fracfocusdata.org/digitaldownload/fracfocusdata.zip",
+          "content_type": "application/x-zip-compressed",
+          "size_mb": 1094.8,
+          "last_modified": "Tue, 06 Oct 2026 07:55:05 GMT"
+        },
+        {
+          "text": "Download SQL Data",
+          "url": "https://www.fracfocusdata.org/digitaldownload/FracFocusNoOGData.zip",
+          "status": 200,
+          "final_url": "https://www.fracfocusdata.org/digitaldownload/FracFocusNoOGData.zip",
+          "content_type": "application/x-zip-compressed",
+          "size_mb": 0.0,
+          "last_modified": "Fri, 29 Aug 2025 14:55:31 GMT"
+        },
+        {
+          "text": "Download CSV Data",
+          "url": "https://www.fracfocusdata.org/digitaldownload/FracFocusCSV.zip",
+          "status": 200,
+          "final_url": "https://www.fracfocusdata.org/digitaldownload/FracFocusCSV.zip",
+          "content_type": "application/x-zip-compressed",
+          "size_mb": 442.2,
+          "last_modified": "Tue, 06 Oct 2026 07:57:44 GMT"
+        },
+        {
+          "text": "Download CSV Data",
+          "url": "https://www.fracfocusdata.org/digitaldownload/FracFocusNoOGCSV.zip",
+          "status": 200,
+          "final_url": "https://www.fracfocusdata.org/digitaldownload/FracFocusNoOGCSV.zip",
+          "content_type": "application/x-zip-compressed",
+          "size_mb": 0.0,
+          "last_modified": "Fri, 29 Aug 2025 14:55:31 GMT"
+        }
+      ],
+      "other_links": [
+        {
+          "text": "Training",
+          "url": "https://www.fracfocusdata.org/assets/FracFocus_User_Guide_V1.pdf"
+        },
+        {
+          "text": "Register",
+          "url": "https://www.fracfocusdata.org/authentication/register"
+        },
+        {
+          "text": "Login",
+          "url": "https://www.fracfocusdata.org/authentication/login"
+        }
+      ],
+      "verdict": "OK - 4 data files reachable"
+    },
+    {
+      "source": "NM OCD statistics page",
+      "kind": "crawl",
+      "page": {
+        "url": "https://www.emnrd.nm.gov/ocd/ocd-data/statistics/",
+        "first_bytes": "<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<link rel=\"pingback\" href=\"https://www.emnrd.nm.gov/ocd/xmlrpc.php\" />\n\n\t<sc",
+        "status": 200,
+        "final_url": "https://www.emnrd.nm.gov/ocd/ocd-data/statistics/",
+        "content_type": "text/html; charset=UTF-8",
+        "size_mb": 0.1,
+        "last_modified": null
+      },
+      "candidate_links": 10,
+      "files": [
+        {
+          "text": "Updated 8/14/25",
+          "url": "https://www.emnrd.nm.gov/ocd/wp-content/uploads/sites/6/OCD-Well-Statistics-24-_-20250806-1.xlsx",
+          "status": 200,
+          "final_url": "https://www.emnrd.nm.gov/ocd/wp-content/uploads/sites/6/OCD-Well-Statistics-24-_-20250806-1.xlsx",
+          "content_type": "application/vnd.ms-excel",
+          "size_mb": 0.0,
+          "last_modified": "Thu, 07 Aug 2025 15:49:52 GMT"
+        }
+      ],
+      "other_links": [
+        {
+          "text": "English",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/statistics/"
+        },
+        {
+          "text": "Search",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/statistics/#global-emnrd-search"
+        },
+        {
+          "text": "Close",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/statistics/#0"
+        },
+        {
+          "text": "Mining Data and Statistics",
+          "url": "https://www.emnrd.nm.gov/mmd/mining-data-and-statistics/"
+        },
+        {
+          "text": "OCD Imaging",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/ocd-imaging/"
+        },
+        {
+          "text": "FTP Server",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/ftp-server/"
+        },
+        {
+          "text": "Research Geospatial (GIS) Tools and Data",
+          "url": "https://www.emnrd.nm.gov/research-geospatial-gis-tools-and-data/"
+        },
+        {
+          "text": "Close",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/statistics/#close-search"
+        },
+        {
+          "text": "OCD Data",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/"
+        }
+      ],
+      "verdict": "OK - 1 data files reachable"
+    },
+    {
+      "source": "NM OCD home page",
+      "kind": "crawl",
+      "page": {
+        "url": "https://www.emnrd.nm.gov/ocd/",
+        "first_bytes": "<!DOCTYPE html>\n<html lang=\"en-US\">\n<head>\n\t<meta charset=\"UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n\t<link rel=\"pingback\" href=\"https://www.emnrd.nm.gov/ocd/xmlrpc.php\" />\n\n\t<sc",
+        "status": 200,
+        "final_url": "https://www.emnrd.nm.gov/ocd/",
+        "content_type": "text/html; charset=UTF-8",
+        "size_mb": 0.1,
+        "last_modified": null
+      },
+      "candidate_links": 6,
+      "files": [],
+      "other_links": [
+        {
+          "text": "Mining Data and Statistics",
+          "url": "https://www.emnrd.nm.gov/mmd/mining-data-and-statistics/"
+        },
+        {
+          "text": "OCD Imaging",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/ocd-imaging/"
+        },
+        {
+          "text": "FTP Server",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/ftp-server/"
+        },
+        {
+          "text": "Statistics",
+          "url": "https://www.emnrd.nm.gov/ocd/ocd-data/statistics/"
+        },
+        {
+          "text": "Research Geospatial (GIS) Tools and Data",
+          "url": "https://www.emnrd.nm.gov/research-geospatial-gis-tools-and-data/"
+        },
+        {
+          "text": "Access OCD well data",
+          "url": "https://wwwapps.emnrd.nm.gov/OCD/OCDPermitting/Data/Wells.aspx"
+        }
+      ],
+      "verdict": "CHECK - no direct data files found"
+    },
+    {
+      "source": "NM Tech GO-TECH all-wells page",
+      "kind": "crawl",
+      "page": {
+        "url": "http://octane.nmt.edu/gotech/petroleum_data/allwells.aspx",
+        "status": 200,
+        "final_url": "http://octane.nmt.edu/gotech/petroleum_data/allwells.aspx",
+        "content_type": "text/html; charset=utf-8",
+        "size_mb": 0.0,
+        "last_modified": null
+      },
+      "candidate_links": 22,
+      "files": [
+        {
+          "text": "here",
+          "url": "http://octane.nmt.edu/gotech/petroleum_data/allwells_zip\\AllWells.zip",
+          "status": 200,
+          "final_url": "http://octane.nmt.edu/gotech/petroleum_data/allwells_zip%5CAllWells.zip",
+          "content_type": "application/x-zip-compressed",
+          "size_mb": 24.2,
+          "last_modified": "Sat, 03 Oct 2026 12:16:27 GMT"
+        },
+        {
+          "text": "here",
+          "url": "http://octane.nmt.edu/gotech/petroleum_data/allwells_zip\\SanJuanBasin.zip",
+          "status": 200,
+          "final_url": "http://octane.nmt.edu/gotech/petroleum_data/allwells_zip%5CSanJuanBasin.zip",
+          "content_type": "application/x-zip-compressed",
+          "size_mb": 6.8,
+          "last_modified": "Sat, 03 Oct 2026 12:16:30 GMT"
+        },
+        {
+          "text": "here",
+          "url": "http://octane.nmt.edu/gotech/petroleum_data/allwells_zip\\RatonBasin.zip",
+          "status": 200,
+          "final_url": "http://octane.nmt.edu/gotech/petroleum_data/allwells_zip%5CRatonBasin.zip",
+          "content_type": "application/x-zip-compressed",
+          "size_mb": 0.4,
+          "last_modified": "Sat, 03 Oct 2026 12:16:30 GMT"
+        },
+        {
+          "text": "here",
+          "url": "http://octane.nmt.edu/gotech/petroleum_data/allwells_zip\\PermianBasin.zip",
+          "status": 200,
+          "final_url": "http://octane.nmt.edu/gotech/petroleum_data/allwells_zip%5CPermianBasin.zip",
+          "content_type": "application/x-zip-compressed",
+          "size_mb": 18.2,
+          "last_modified": "Sat, 03 Oct 2026 12:16:30 GMT"
+        }
+      ],
+      "other_links": [
+        {
+          "text": "",
+          "url": "http://octane.nmt.edu/gotech/petroleum_data/allwells.aspx#ctl00_masterMenu_SkipLink"
+        },
+        {
+          "text": "~ Production Data",
+          "url": "http://octane.nmt.edu/gotech/Petroleum_Data/General.aspx"
+        },
+        {
+          "text": "~ Well Data",
+          "url": "http://octane.nmt.edu/gotech/petroleum_data/allwells.aspx"
+        },
+        {
+          "text": "Other Searches",
+          "url": "http://octane.nmt.edu/gotech/Petroleum_Data/SpecificSearches.aspx"
+        },
+        {
+          "text": "Pre-ONGARD Data",
+          "url": "http://octane.nmt.edu/gotech/PreOngard_Data/General.aspx"
+        },
+        {
+          "text": "All Wells",
+          "url": "http://octane.nmt.edu/gotech/Petroleum_Data/allwells.aspx"
+        },
+        {
+          "text": "",
+          "url": "http://octane.nmt.edu/gotech/petroleum_data/allwells.aspx#ctl00_SiteMapPath1_SkipLink"
+        },
+        {
+          "text": "",
+          "url": "http://octane.nmt.edu/gotech/petroleum_data/allwells.aspx#ctl00_TreeView1_SkipLink"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_ToggleNode(ctl00_TreeView1_Data,0,document.getElementById('ctl00_TreeView1n0'),'-',document.getElementById('ctl00_TreeView1n0Nodes'))"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_ToggleNode(ctl00_TreeView1_Data,1,document.getElementById('ctl00_TreeView1n1'),'t',document.getElementById('ctl00_TreeView1n1Nodes'))"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_PopulateNode(ctl00_TreeView1_Data,3,document.getElementById('ctl00_TreeView1n3'),document.getElementById('ctl00_TreeView1t3'),null,'t','Older Data','~ Home\\\\~  Production Data\\\\Older Data','t','77dfc7f8-8da7-40d1-9fd0-b1411fbe47d4','tff')"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_PopulateNode(ctl00_TreeView1_Data,4,document.getElementById('ctl00_TreeView1n4'),document.getElementById('ctl00_TreeView1t4'),null,'l','Production Summaries','~ Home\\\\~  Production Data\\\\Production Summaries','t','cf9505ce-d143-4428-a855-820d634b844f','tft')"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_ToggleNode(ctl00_TreeView1_Data,5,document.getElementById('ctl00_TreeView1n5'),'t',document.getElementById('ctl00_TreeView1n5Nodes'))"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_ToggleNode(ctl00_TreeView1_Data,8,document.getElementById('ctl00_TreeView1n8'),'t',document.getElementById('ctl00_TreeView1n8Nodes'))"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_ToggleNode(ctl00_TreeView1_Data,12,document.getElementById('ctl00_TreeView1n12'),'t',document.getElementById('ctl00_TreeView1n12Nodes'))"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_ToggleNode(ctl00_TreeView1_Data,14,document.getElementById('ctl00_TreeView1n14'),'t',document.getElementById('ctl00_TreeView1n14Nodes'))"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_ToggleNode(ctl00_TreeView1_Data,17,document.getElementById('ctl00_TreeView1n17'),'t',document.getElementById('ctl00_TreeView1n17Nodes'))"
+        },
+        {
+          "text": "",
+          "url": "javascript:TreeView_ToggleNode(ctl00_TreeView1_Data,20,document.getElementById('ctl00_TreeView1n20'),'l',document.getElementById('ctl00_TreeView1n20Nodes'))"
+        }
+      ],
+      "verdict": "OK - 4 data files reachable"
+    },
+    {
+      "source": "NM OCD Oil and Gas Wells (ArcGIS Hub)",
+      "kind": "arcgis",
+      "service_url": "https://gis.emnrd.nm.gov/arcgis/rest/services/OCDView/Wells_Public/FeatureServer",
+      "item_modified": 1777490720000,
+      "fields": [
+        "OBJECTID",
+        "id",
+        "name",
+        "type",
+        "status",
+        "sub_type_code",
+        "ogrid",
+        "ogrid_name",
+        "district_code",
+        "district",
+        "county_code",
+        "county",
+        "ulstr",
+        "latitude",
+        "longitude",
+        "projection",
+        "directional_status",
+        "details",
+        "files",
+        "year_spudded",
+        "spud_date",
+        "lease_type",
+        "measured_vertical_depth",
+        "true_vertical_depth",
+        "pool_id_list",
+        "last_production_date",
+        "plug_date",
+        "GlobalID"
+      ],
+      "edit_info": null,
+      "record_count": 142280,
+      "verdict": "OK - API, 142280 records"
+    },
+    {
+      "source": "TX Drilling Permits - daily (lat/long)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/5f07cc72-2e79-4df8-ade1-9aeb792e03fc",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/5f07cc72-2e79-4df8-ade1-9aeb792e03fc (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/5f07cc72-2e79-4df8-ade1-9aeb792e03fc\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/5f07cc72-2e79-4df8-ade1-9aeb792e03fc\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Drilling Permits - end of month (lat/long)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/f5dfea9c-bb39-4a5e-a44e-fb522e088cba",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/f5dfea9c-bb39-4a5e-a44e-fb522e088cba (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/f5dfea9c-bb39-4a5e-a44e-fb522e088cba\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/f5dfea9c-bb39-4a5e-a44e-fb522e088cba\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Drilling Permit Master and Trailer (since 1976)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/beeeab0c-7d07-4111-af88-783c93677b2c",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/beeeab0c-7d07-4111-af88-783c93677b2c (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/beeeab0c-7d07-4111-af88-783c93677b2c\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/beeeab0c-7d07-4111-af88-783c93677b2c\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Horizontal Drilling Permits",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/c725637f-6748-47b9-ad74-e0396879d88b",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/c725637f-6748-47b9-ad74-e0396879d88b (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/c725637f-6748-47b9-ad74-e0396879d88b\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/c725637f-6748-47b9-ad74-e0396879d88b\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Drilling Permits Pending Approval",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/0ad92a65-4212-49a1-98a7-d667a55fb497",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/0ad92a65-4212-49a1-98a7-d667a55fb497 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/0ad92a65-4212-49a1-98a7-d667a55fb497\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/0ad92a65-4212-49a1-98a7-d667a55fb497\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Completion Information (nightly)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/ed7ab066-879f-40b6-8144-2ae4b6810c04",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/ed7ab066-879f-40b6-8144-2ae4b6810c04 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/ed7ab066-879f-40b6-8144-2ae4b6810c04\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/ed7ab066-879f-40b6-8144-2ae4b6810c04\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Full Wellbore (weekly)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/b070ce28-5c58-4fe2-9eb7-8b70befb7af9",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/b070ce28-5c58-4fe2-9eb7-8b70befb7af9 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/b070ce28-5c58-4fe2-9eb7-8b70befb7af9\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/b070ce28-5c58-4fe2-9eb7-8b70befb7af9\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Wellbore Query Data (monthly)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/650649b7-e019-4d77-a8e0-d118d6455381",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/650649b7-e019-4d77-a8e0-d118d6455381 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/650649b7-e019-4d77-a8e0-d118d6455381\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/650649b7-e019-4d77-a8e0-d118d6455381\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Statewide API Data (ASCII)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/701db9a3-32b5-488d-812b-cd6ff7d0fe85",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/701db9a3-32b5-488d-812b-cd6ff7d0fe85 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/701db9a3-32b5-488d-812b-cd6ff7d0fe85\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/701db9a3-32b5-488d-812b-cd6ff7d0fe85\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Production Data Query Dump (CSV)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/1f5ddb8d-329a-4459-b7f8-177b4f5ee60d",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/1f5ddb8d-329a-4459-b7f8-177b4f5ee60d (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/1f5ddb8d-329a-4459-b7f8-177b4f5ee60d\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/1f5ddb8d-329a-4459-b7f8-177b4f5ee60d\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Production Report - Pending Leases",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/941af606-dc16-44ef-9b1e-f942f36fc582",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/941af606-dc16-44ef-9b1e-f942f36fc582 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/941af606-dc16-44ef-9b1e-f942f36fc582\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/941af606-dc16-44ef-9b1e-f942f36fc582\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Oil Detail Well",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/f5ac3552-50ce-4959-844d-5079de0f1f62",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/f5ac3552-50ce-4959-844d-5079de0f1f62 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/f5ac3552-50ce-4959-844d-5079de0f1f62\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/f5ac3552-50ce-4959-844d-5079de0f1f62\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Oil Well Status (W-10)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/af355cae-e78b-4337-aba8-7ce57073dba3",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/af355cae-e78b-4337-aba8-7ce57073dba3 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/af355cae-e78b-4337-aba8-7ce57073dba3\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/af355cae-e78b-4337-aba8-7ce57073dba3\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Gas Well Status (G-10)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/1363c373-fe71-4044-aa23-3c90cd162ff9",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/1363c373-fe71-4044-aa23-3c90cd162ff9 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/1363c373-fe71-4044-aa23-3c90cd162ff9\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/1363c373-fe71-4044-aa23-3c90cd162ff9\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX P-5 Organization (operators)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/04652169-eed6-4396-9019-2e270e790f6c",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/04652169-eed6-4396-9019-2e270e790f6c (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/04652169-eed6-4396-9019-2e270e790f6c\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/04652169-eed6-4396-9019-2e270e790f6c\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    },
+    {
+      "source": "TX Well Layers by County (GIS)",
+      "kind": "rrc_mft",
+      "direct_http": {
+        "url": "https://mft.rrc.texas.gov/link/d551fb20-442e-4b67-84fa-ac3f23ecabb4",
+        "error": "SSLError(MaxRetryError(\"HTTPSConnectionPool(host='mft.rrc.texas.gov', port=443): Max retries exceeded with url: /link/d551fb20-442e-4b67-84fa-ac3f23ecabb4 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))\"))"
+      },
+      "error": "Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/d551fb20-442e-4b67-84fa-ac3f23ecabb4\\nCall log:\\n  - navigating to \"https://mft.rrc.texas.gov/link/d551fb20-442e-4b67-84fa-ac3f23ecabb4\", waiting until \"networkidle\"\\n')",
+      "verdict": "CHECK - see screenshot/error"
+    }
+  ]
+}
