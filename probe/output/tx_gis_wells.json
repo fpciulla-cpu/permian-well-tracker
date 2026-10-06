@@ -1,0 +1,110 @@
+{
+  "layer_id": 1,
+  "fields": [
+    [
+      "UNIQID",
+      "esriFieldTypeInteger"
+    ],
+    [
+      "API",
+      "esriFieldTypeString"
+    ],
+    [
+      "GIS_API5",
+      "esriFieldTypeString"
+    ],
+    [
+      "GIS_WELL_NUMBER",
+      "esriFieldTypeString"
+    ],
+    [
+      "SYMNUM",
+      "esriFieldTypeSmallInteger"
+    ],
+    [
+      "GIS_SYMBOL_DESCRIPTION",
+      "esriFieldTypeString"
+    ],
+    [
+      "RELIAB",
+      "esriFieldTypeString"
+    ],
+    [
+      "GIS_LOCATION_SOURCE",
+      "esriFieldTypeString"
+    ],
+    [
+      "GIS_LAT27",
+      "esriFieldTypeDouble"
+    ],
+    [
+      "GIS_LONG27",
+      "esriFieldTypeDouble"
+    ],
+    [
+      "GIS_LAT83",
+      "esriFieldTypeDouble"
+    ],
+    [
+      "GIS_LONG83",
+      "esriFieldTypeDouble"
+    ],
+    [
+      "OBJECTID",
+      "esriFieldTypeOID"
+    ],
+    [
+      "SHAPE",
+      "esriFieldTypeGeometry"
+    ]
+  ],
+  "max_record_count": 1000,
+  "count": 1397294,
+  "sample": [
+    {
+      "UNIQID": 114,
+      "API": "421",
+      "GIS_API5": " ",
+      "GIS_WELL_NUMBER": "1",
+      "SYMNUM": 2,
+      "GIS_SYMBOL_DESCRIPTION": "Permitted Location",
+      "RELIAB": "15",
+      "GIS_LOCATION_SOURCE": "Commission`s hardcopy map",
+      "GIS_LAT27": 36.4529827,
+      "GIS_LONG27": -102.1217891,
+      "GIS_LAT83": 36.45300986,
+      "GIS_LONG83": -102.12224025,
+      "OBJECTID": 1
+    },
+    {
+      "UNIQID": 115,
+      "API": "421",
+      "GIS_API5": " ",
+      "GIS_WELL_NUMBER": "1",
+      "SYMNUM": 3,
+      "GIS_SYMBOL_DESCRIPTION": "Dry Hole",
+      "RELIAB": "15",
+      "GIS_LOCATION_SOURCE": "Commission`s hardcopy map",
+      "GIS_LAT27": 36.4520318,
+      "GIS_LONG27": -102.0760372,
+      "GIS_LAT83": 36.45205909,
+      "GIS_LONG83": -102.07648728,
+      "OBJECTID": 2
+    },
+    {
+      "UNIQID": 116,
+      "API": "42130441",
+      "GIS_API5": "30441",
+      "GIS_WELL_NUMBER": "4501",
+      "SYMNUM": 3,
+      "GIS_SYMBOL_DESCRIPTION": "Dry Hole",
+      "RELIAB": "20",
+      "GIS_LOCATION_SOURCE": "Mainframe WELLBORE distances",
+      "GIS_LAT27": 36.44971624,
+      "GIS_LONG27": -102.10564747,
+      "GIS_LAT83": 36.44974345,
+      "GIS_LONG83": -102.10609833,
+      "OBJECTID": 3
+    }
+  ]
+}
