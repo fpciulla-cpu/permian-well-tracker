@@ -1,0 +1,532 @@
+{
+  "run_utc": "2026-10-06 16:55 UTC",
+  "texas": {
+    "runner_ip": {
+      "rc": 0,
+      "out": "{\n  \"ip\": \"68.220.59.172\",\n  \"city\": \"San Jose\",\n  \"region\": \"California\",\n  \"country\": \"US\",\n  \"loc\": \"37.3394,-121.8950\",\n  \"org\": \"AS8075 Microsoft Corporation\",\n  \"postal\": \"95110\",\n  \"timezone\": \"America/Los_Angeles\",\n  \"readme\": \"https://ipinfo.io/missingauth\"\n}",
+      "err": ""
+    },
+    "matrix": [
+      {
+        "target": "RRC main website",
+        "variant": "default",
+        "url": "https://www.rrc.texas.gov/",
+        "result": "200 | ip=150.171.109.150 | 0.536863s",
+        "error": ""
+      },
+      {
+        "target": "RRC data-sets page",
+        "variant": "default",
+        "url": "https://www.rrc.texas.gov/resource-center/research/data-sets-available-for-download/",
+        "result": "200 | ip=150.171.109.150 | 0.404802s",
+        "error": ""
+      },
+      {
+        "target": "MFT root (https)",
+        "variant": "default",
+        "url": "https://mft.rrc.texas.gov/",
+        "result": "302 | ip=52.238.113.119 | 1.242246s",
+        "error": ""
+      },
+      {
+        "target": "MFT root (https)",
+        "variant": "browser UA",
+        "url": "https://mft.rrc.texas.gov/",
+        "result": "302 | ip=52.238.113.119 | 0.995558s",
+        "error": ""
+      },
+      {
+        "target": "MFT root (https)",
+        "variant": "TLS 1.2 only",
+        "url": "https://mft.rrc.texas.gov/",
+        "result": "302 | ip=52.238.113.119 | 1.102582s",
+        "error": ""
+      },
+      {
+        "target": "MFT root (https)",
+        "variant": "HTTP/1.1",
+        "url": "https://mft.rrc.texas.gov/",
+        "result": "302 | ip=52.238.113.119 | 1.087430s",
+        "error": ""
+      },
+      {
+        "target": "MFT root (http)",
+        "variant": "default",
+        "url": "http://mft.rrc.texas.gov/",
+        "result": "000 | ip=52.238.113.119 | 30.001035s",
+        "error": "curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received"
+      },
+      {
+        "target": "MFT root (http)",
+        "variant": "browser UA",
+        "url": "http://mft.rrc.texas.gov/",
+        "result": "000 | ip=52.238.113.119 | 30.002294s",
+        "error": "curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received"
+      },
+      {
+        "target": "MFT root (http)",
+        "variant": "TLS 1.2 only",
+        "url": "http://mft.rrc.texas.gov/",
+        "result": "000 | ip=52.238.113.119 | 30.001669s",
+        "error": "curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received"
+      },
+      {
+        "target": "MFT root (http)",
+        "variant": "HTTP/1.1",
+        "url": "http://mft.rrc.texas.gov/",
+        "result": "000 | ip=52.238.113.119 | 30.001258s",
+        "error": "curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received"
+      },
+      {
+        "target": "MFT permit link",
+        "variant": "default",
+        "url": "https://mft.rrc.texas.gov/link/beeeab0c-7d07-4111-af88-783c93677b2c",
+        "result": "200 | ip=52.238.113.119 | 1.160414s",
+        "error": ""
+      },
+      {
+        "target": "MFT permit link",
+        "variant": "browser UA",
+        "url": "https://mft.rrc.texas.gov/link/beeeab0c-7d07-4111-af88-783c93677b2c",
+        "result": "200 | ip=52.238.113.119 | 1.079084s",
+        "error": ""
+      },
+      {
+        "target": "MFT permit link",
+        "variant": "TLS 1.2 only",
+        "url": "https://mft.rrc.texas.gov/link/beeeab0c-7d07-4111-af88-783c93677b2c",
+        "result": "200 | ip=52.238.113.119 | 1.289181s",
+        "error": ""
+      },
+      {
+        "target": "MFT permit link",
+        "variant": "HTTP/1.1",
+        "url": "https://mft.rrc.texas.gov/link/beeeab0c-7d07-4111-af88-783c93677b2c",
+        "result": "200 | ip=52.238.113.119 | 1.118605s",
+        "error": ""
+      },
+      {
+        "target": "RRC webapps (PDQ online)",
+        "variant": "default",
+        "url": "https://webapps2.rrc.texas.gov/EWA/ewaPdqMain.do",
+        "result": "200 | ip=168.44.248.181 | 0.357137s",
+        "error": ""
+      },
+      {
+        "target": "RRC GIS viewer",
+        "variant": "default",
+        "url": "https://gis.rrc.texas.gov/GISViewer/",
+        "result": "200 | ip=168.44.248.173 | 0.228408s",
+        "error": ""
+      },
+      {
+        "target": "RRC GIS REST (server)",
+        "variant": "default",
+        "url": "https://gis.rrc.texas.gov/server/rest/services?f=json",
+        "result": "200 | ip=168.44.248.173 | 0.237803s",
+        "error": ""
+      },
+      {
+        "target": "RRC GIS REST (arcgis)",
+        "variant": "default",
+        "url": "https://gis.rrc.texas.gov/arcgis/rest/services?f=json",
+        "result": "404 | ip=168.44.248.173 | 0.182642s",
+        "error": ""
+      }
+    ],
+    "tls_handshake": {
+      "rc": 0,
+      "out": "CN = Sectigo Public Server Authentication Root R46\n   a:PKEY: rsaEncryption, 4096 (bit); sigalg: RSA-SHA384\n   v:NotBefore: Mar 22 00:00:00 2021 GMT; NotAfter: Mar 21 23:59:59 2046 GMT\n---\nServer certificate\n-----BEGIN CERTIFICATE-----\nMIIG6zCCBVOgAwIBAgIRAIq1fNuw6IBZObKmMwl6coQwDQYJKoZIhvcNAQELBQAw",
+      "err": ""
+    },
+    "mft_retry_after_45s": {
+      "rc": 0,
+      "out": "200",
+      "err": ""
+    },
+    "gis_services": {
+      "RRC GIS REST (server)": {
+        "folders": [
+          "Geoprocessing",
+          "Hosted",
+          "pro_internal",
+          "rrc_internal",
+          "rrc_public",
+          "SB3",
+          "Utilities"
+        ],
+        "services": [
+          "SpatialDataServices"
+        ]
+      },
+      "RRC GIS REST (arcgis)": {
+        "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+      }
+    }
+  },
+  "new_mexico": {
+    "field_types": {
+      "OBJECTID": "OID",
+      "id": "String",
+      "name": "String",
+      "type": "String",
+      "status": "String",
+      "sub_type_code": "String",
+      "ogrid": "Integer",
+      "ogrid_name": "String",
+      "district_code": "Integer",
+      "district": "String",
+      "county_code": "Integer",
+      "county": "String",
+      "ulstr": "String",
+      "latitude": "Double",
+      "longitude": "Double",
+      "projection": "String",
+      "directional_status": "String",
+      "details": "String",
+      "files": "String",
+      "year_spudded": "String",
+      "spud_date": "Date",
+      "lease_type": "String",
+      "measured_vertical_depth": "Integer",
+      "true_vertical_depth": "Integer",
+      "pool_id_list": "String",
+      "last_production_date": "Date",
+      "plug_date": "Date",
+      "GlobalID": "GlobalID"
+    },
+    "max_record_count": 6000,
+    "supports_statistics": true,
+    "latest_dates": {
+      "max_spud": 253402214400000,
+      "max_lastprod": 253402214400000,
+      "max_spud_utc": "9999-12-31",
+      "max_lastprod_utc": "9999-12-31"
+    },
+    "counties": {
+      "Bernalillo": 26,
+      "Catron": 40,
+      "Chaves": 7555,
+      "Cibola": 22,
+      "Colfax": 985,
+      "Curry": 75,
+      "De Baca": 95,
+      "Dona Ana": 12,
+      "Eddy": 42195,
+      "Grant": 5,
+      "Guadalupe": 122,
+      "Harding": 665,
+      "Hidalgo": 5,
+      "Lea": 49142,
+      "Lincoln": 59,
+      "Luna": 19,
+      "McKinley": 1499,
+      "Mora": 46,
+      "Otero": 64,
+      "Quay": 81,
+      "Rio Arriba": 12861,
+      "Roosevelt": 1785,
+      "San Juan": 22445,
+      "San Miguel": 41,
+      "Sandoval": 1731,
+      "Santa Fe": 27,
+      "Sierra": 31,
+      "Socorro": 32,
+      "Torrance": 53,
+      "Union": 536,
+      "Valencia": 26
+    },
+    "eddy_lea_spuds_by_year": {
+      "2010": 906,
+      "2011": 1094,
+      "2012": 1181,
+      "2013": 1105,
+      "2014": 1200,
+      "2015": 687,
+      "2016": 377,
+      "2017": 897,
+      "2018": 1211,
+      "2019": 1344,
+      "2020": 993,
+      "2021": 1500,
+      "2022": 1703,
+      "2023": 1702,
+      "2024": 1880,
+      "2025": 1927,
+      "2026": 1081,
+      "9999": 29341
+    },
+    "eddy_lea_by_status": {
+      "Active": 29949,
+      "Cancelled": 11910,
+      "Dry Hole": 7,
+      "Never Drilled": 95,
+      "New": 17600,
+      "Plugged (not released)": 2266,
+      "Plugged (site released)": 28746,
+      "Reclamation Fund Approved": 236,
+      "Reclamation Fund Pending": 4,
+      "Temporary Abandonment": 291,
+      "Temporary Abandonment (expired)": 221,
+      "Zone Plugged (permanent)": 9,
+      "Zone Plugged (temporary)": 3
+    },
+    "eddy_lea_by_type": {
+      "CO2": 1,
+      "Gas": 13757,
+      "Injection": 5114,
+      "Miscellaneous": 180,
+      "Oil": 70689,
+      "Salt Water Disposal": 1515,
+      "Water": 81
+    },
+    "latest_spuds_sample": [
+      {
+        "id": "30-015-29823",
+        "name": "LOTOS 11 FEDERAL #003",
+        "ogrid_name": "SONAT EXPLORATION COMPANY",
+        "county": "Eddy",
+        "type": "Oil",
+        "status": "Cancelled",
+        "spud_date": "9999-12-31",
+        "last_production_date": "9999-12-31"
+      },
+      {
+        "id": "30-025-47365",
+        "name": "SAVAGE 2 STATE COM #202C",
+        "ogrid_name": "EOG RESOURCES INC",
+        "county": "Lea",
+        "type": "Oil",
+        "status": "Cancelled",
+        "spud_date": "9999-12-31",
+        "last_production_date": "9999-12-31"
+      },
+      {
+        "id": "30-025-37977",
+        "name": "COLIBRI FEDERAL #002",
+        "ogrid_name": "STRATA PRODUCTION CO",
+        "county": "Lea",
+        "type": "Oil",
+        "status": "New",
+        "spud_date": "9999-12-31",
+        "last_production_date": "9999-12-31"
+      },
+      {
+        "id": "30-015-42823",
+        "name": "CORK SWD #001",
+        "ogrid_name": "MACK ENERGY CORP",
+        "county": "Eddy",
+        "type": "Salt Water Disposal",
+        "status": "Cancelled",
+        "spud_date": "9999-12-31",
+        "last_production_date": "9999-12-31"
+      },
+      {
+        "id": "30-025-37511",
+        "name": "EDITH BUTLER B #003",
+        "ogrid_name": "MARATHON OIL CO",
+        "county": "Lea",
+        "type": "Oil",
+        "status": "Cancelled",
+        "spud_date": "9999-12-31",
+        "last_production_date": "9999-12-31"
+      }
+    ]
+  },
+  "fracfocus": {
+    "download_seconds": 9,
+    "zip_mb": 442.2,
+    "members": [
+      {
+        "name": "DisclosureList_1.csv",
+        "mb": 61.4
+      },
+      {
+        "name": "FracFocusRegistry_1.csv",
+        "mb": 234.7
+      },
+      {
+        "name": "FracFocusRegistry_10.csv",
+        "mb": 236.7
+      },
+      {
+        "name": "FracFocusRegistry_11.csv",
+        "mb": 235.9
+      },
+      {
+        "name": "FracFocusRegistry_12.csv",
+        "mb": 235.4
+      },
+      {
+        "name": "FracFocusRegistry_13.csv",
+        "mb": 235.2
+      },
+      {
+        "name": "FracFocusRegistry_14.csv",
+        "mb": 234.8
+      },
+      {
+        "name": "FracFocusRegistry_15.csv",
+        "mb": 117.4
+      },
+      {
+        "name": "FracFocusRegistry_2.csv",
+        "mb": 239.5
+      },
+      {
+        "name": "FracFocusRegistry_3.csv",
+        "mb": 239.5
+      },
+      {
+        "name": "FracFocusRegistry_4.csv",
+        "mb": 242.5
+      },
+      {
+        "name": "FracFocusRegistry_5.csv",
+        "mb": 245.4
+      },
+      {
+        "name": "FracFocusRegistry_6.csv",
+        "mb": 243.5
+      },
+      {
+        "name": "FracFocusRegistry_7.csv",
+        "mb": 235.5
+      },
+      {
+        "name": "FracFocusRegistry_8.csv",
+        "mb": 235.4
+      },
+      {
+        "name": "FracFocusRegistry_9.csv",
+        "mb": 235.9
+      },
+      {
+        "name": "readme csv.txt",
+        "mb": 0.0
+      },
+      {
+        "name": "WaterSource_1.csv",
+        "mb": 4.9
+      }
+    ],
+    "scan_seconds": 49,
+    "headers_first_file": [
+      "DisclosureId",
+      "JobStartDate",
+      "JobEndDate",
+      "APINumber",
+      "StateName",
+      "CountyName",
+      "OperatorName",
+      "WellName",
+      "Latitude",
+      "Longitude",
+      "Projection",
+      "TVD",
+      "TotalBaseWaterVolume",
+      "TotalBaseNonWaterVolume",
+      "FFVersion",
+      "FederalWell",
+      "IndianWell"
+    ],
+    "files_scanned": 17,
+    "permian_jobs_total": 87116,
+    "latest_job_end_date": "2026-09-29",
+    "permian_jobs_by_state_year": {
+      "TEXAS": {
+        "2014": 7118,
+        "2015": 3823,
+        "2016": 2633,
+        "2017": 3979,
+        "2018": 5036,
+        "2019": 5125,
+        "2020": 2843,
+        "2021": 4124,
+        "2022": 4670,
+        "2023": 4650,
+        "2024": 4410,
+        "2025": 4162,
+        "2026": 2280,
+        "3012": 1
+      },
+      "NEW MEXICO": {
+        "2014": 559,
+        "2015": 535,
+        "2016": 320,
+        "2017": 561,
+        "2018": 1023,
+        "2019": 1064,
+        "2020": 847,
+        "2021": 1318,
+        "2022": 1660,
+        "2023": 1679,
+        "2024": 1878,
+        "2025": 1921,
+        "2026": 1168
+      }
+    },
+    "top_operators_2025_2026": [
+      [
+        "Diamondback E&P LLC",
+        917
+      ],
+      [
+        "Pioneer Natural Resources",
+        821
+      ],
+      [
+        "Occidental Oil and Gas",
+        760
+      ],
+      [
+        "XTO Energy/ExxonMobil",
+        563
+      ],
+      [
+        "EOG Resources, Inc.",
+        477
+      ],
+      [
+        "COG Operating LLC",
+        469
+      ],
+      [
+        "MEWBOURNE OIL COMPANY",
+        467
+      ],
+      [
+        "Permian Resources Operating, LLC",
+        413
+      ],
+      [
+        "Devon Energy Production Company L. P.",
+        403
+      ],
+      [
+        "Chevron USA Inc.",
+        374
+      ],
+      [
+        "Cimarex Energy Co.",
+        342
+      ],
+      [
+        "Apache Corporation",
+        257
+      ],
+      [
+        "Matador Production Company",
+        239
+      ],
+      [
+        "Civitas Permian Operating, LLC",
+        191
+      ],
+      [
+        "Blackbeard Operating",
+        178
+      ]
+    ]
+  }
+}
