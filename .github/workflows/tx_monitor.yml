@@ -1,0 +1,42 @@
+name: 02 - Texas access monitor
+
+on:
+  schedule:
+    - cron: "17 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tx-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Install tools
+        run: |
+          pip install -r probe/requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run monitor
+        run: python probe/tx_monitor.py
+
+      - name: Save results to repository
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probe/output || true
+          git commit -m "TX monitor $(date -u +%Y-%m-%dT%H:%MZ)" || exit 0
+          git pull --rebase -X theirs || true
+          git push
