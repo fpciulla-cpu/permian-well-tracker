@@ -17,3 +17,6 @@ curl: (28) Connection timed out afte"
 2026-10-07 13:22,68.220.61.5,San Jose,AS8075 Microsoft Corporation,drilling-permits-daily,200,
 2026-10-07 13:22,68.220.61.5,San Jose,AS8075 Microsoft Corporation,completions-nightly,200,
 2026-10-07 13:22,68.220.61.5,San Jose,AS8075 Microsoft Corporation,p5-organization,200,
+2026-10-07 20:00,4.149.237.38,Moses Lake,AS8075 Microsoft Corporation,drilling-permits-daily,200,
+2026-10-07 20:00,4.149.237.38,Moses Lake,AS8075 Microsoft Corporation,completions-nightly,200,
+2026-10-07 20:00,4.149.237.38,Moses Lake,AS8075 Microsoft Corporation,p5-organization,200,
