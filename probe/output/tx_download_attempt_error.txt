@@ -1,0 +1,1 @@
+2026-10-07 05:58 Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://mft.rrc.texas.gov/link/5f07cc72-2e79-4df8-ade1-9aeb792e03fc\nCall log:\n  - navigating to "https://mft.rrc.texas.gov/link/5f07cc72-2e79-4df8-ade1-9aeb792e03fc", waiting until "networkidle"\n')
