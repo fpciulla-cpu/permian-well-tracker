@@ -1,0 +1,409 @@
+{
+  "utc": "2026-10-07T13:22",
+  "clickables": [
+    {
+      "text": "Refresh",
+      "href": null,
+      "id": "toolbarForm:j_id_17"
+    },
+    {
+      "text": "Media Viewer",
+      "href": null,
+      "id": "toolbarForm:j_id_18"
+    },
+    {
+      "text": "/ (Home)",
+      "href": "#",
+      "id": "breadcrumbForm:j_id_1m:0:j_id_1n"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat",
+      "href": "#",
+      "id": "fileTable:0:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-01-2018",
+      "href": "#",
+      "id": "fileTable:1:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-01-2019",
+      "href": "#",
+      "id": "fileTable:2:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-01-2020",
+      "href": "#",
+      "id": "fileTable:3:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-01-2021",
+      "href": "#",
+      "id": "fileTable:4:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-01-2022",
+      "href": "#",
+      "id": "fileTable:5:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-01-2023",
+      "href": "#",
+      "id": "fileTable:6:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-01-2024",
+      "href": "#",
+      "id": "fileTable:7:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-01-2025",
+      "href": "#",
+      "id": "fileTable:8:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-01-2026",
+      "href": "#",
+      "id": "fileTable:9:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-02-2018",
+      "href": "#",
+      "id": "fileTable:10:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-02-2019",
+      "href": "#",
+      "id": "fileTable:11:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-02-2020",
+      "href": "#",
+      "id": "fileTable:12:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-02-2021",
+      "href": "#",
+      "id": "fileTable:13:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-02-2022",
+      "href": "#",
+      "id": "fileTable:14:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-02-2023",
+      "href": "#",
+      "id": "fileTable:15:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-02-2024",
+      "href": "#",
+      "id": "fileTable:16:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-02-2025",
+      "href": "#",
+      "id": "fileTable:17:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-02-2026",
+      "href": "#",
+      "id": "fileTable:18:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-03-2018",
+      "href": "#",
+      "id": "fileTable:19:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-03-2019",
+      "href": "#",
+      "id": "fileTable:20:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-03-2020",
+      "href": "#",
+      "id": "fileTable:21:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-03-2021",
+      "href": "#",
+      "id": "fileTable:22:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-03-2022",
+      "href": "#",
+      "id": "fileTable:23:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-03-2023",
+      "href": "#",
+      "id": "fileTable:24:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-03-2024",
+      "href": "#",
+      "id": "fileTable:25:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-03-2025",
+      "href": "#",
+      "id": "fileTable:26:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-03-2026",
+      "href": "#",
+      "id": "fileTable:27:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-04-2019",
+      "href": "#",
+      "id": "fileTable:28:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-04-2020",
+      "href": "#",
+      "id": "fileTable:29:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-04-2021",
+      "href": "#",
+      "id": "fileTable:30:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-04-2022",
+      "href": "#",
+      "id": "fileTable:31:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-04-2023",
+      "href": "#",
+      "id": "fileTable:32:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-04-2024",
+      "href": "#",
+      "id": "fileTable:33:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-04-2025",
+      "href": "#",
+      "id": "fileTable:34:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-04-2026",
+      "href": "#",
+      "id": "fileTable:35:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-05-2018",
+      "href": "#",
+      "id": "fileTable:36:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    },
+    {
+      "text": "daf420.dat.01-05-2019",
+      "href": "#",
+      "id": "fileTable:37:j_id_2f"
+    },
+    {
+      "text": "",
+      "href": null,
+      "id": null
+    }
+  ],
+  "download_url": "https://mft.rrc.texas.gov/link/godrivedownload",
+  "filename": "daf420.dat",
+  "size_mb": 0.31,
+  "first_bytes": "01091047597103TROUBADOUR 20/16 A\t\t            10562560    20260619MEWBOURNE OIL COMPANY           00ANNNNNNNNNNN09104752025091700000000N                    F101PAN000000000000000000 X00000000000000000000000000000\r\n02091047597103TROUBADOUR 20/16 A\t\t            10F101PA1005656256001                              000000000000000000000000202606192025091720261001000000000000000000000000 0000000020270917"
+}
