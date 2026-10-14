@@ -95,3 +95,6 @@ curl: (28) Connection timed out afte"
 2026-10-14 13:43,20.118.39.241,Des Moines,AS8075 Microsoft Corporation,drilling-permits-daily,000,curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to mft.rrc.texas.gov:443
 2026-10-14 13:43,20.118.39.241,Des Moines,AS8075 Microsoft Corporation,completions-nightly,000,curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to mft.rrc.texas.gov:443
 2026-10-14 13:43,20.118.39.241,Des Moines,AS8075 Microsoft Corporation,p5-organization,000,curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to mft.rrc.texas.gov:443
+2026-10-14 18:37,172.214.155.177,Chicago,AS8075 Microsoft Corporation,drilling-permits-daily,200,
+2026-10-14 18:37,172.214.155.177,Chicago,AS8075 Microsoft Corporation,completions-nightly,200,
+2026-10-14 18:37,172.214.155.177,Chicago,AS8075 Microsoft Corporation,p5-organization,200,
