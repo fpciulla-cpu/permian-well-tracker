@@ -134,3 +134,6 @@ curl: (28) Connection timed out afte"
 2026-10-17 06:57,135.232.227.145,Chicago,AS8075 Microsoft Corporation,drilling-permits-daily,200,
 2026-10-17 06:57,135.232.227.145,Chicago,AS8075 Microsoft Corporation,completions-nightly,200,
 2026-10-17 06:57,135.232.227.145,Chicago,AS8075 Microsoft Corporation,p5-organization,200,
+2026-10-17 12:11,130.131.239.114,Des Moines,AS8075 Microsoft Corporation,drilling-permits-daily,200,
+2026-10-17 12:11,130.131.239.114,Des Moines,AS8075 Microsoft Corporation,completions-nightly,200,
+2026-10-17 12:11,130.131.239.114,Des Moines,AS8075 Microsoft Corporation,p5-organization,200,
