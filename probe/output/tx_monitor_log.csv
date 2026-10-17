@@ -140,3 +140,6 @@ curl: (28) Connection timed out afte"
 2026-10-17 15:33,128.85.44.208,Moses Lake,AS8075 Microsoft Corporation,drilling-permits-daily,200,
 2026-10-17 15:33,128.85.44.208,Moses Lake,AS8075 Microsoft Corporation,completions-nightly,200,
 2026-10-17 15:33,128.85.44.208,Moses Lake,AS8075 Microsoft Corporation,p5-organization,200,
+2026-10-17 18:30,20.119.102.73,Dulles Town Center,AS8075 Microsoft Corporation,drilling-permits-daily,000,curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to mft.rrc.texas.gov:443
+2026-10-17 18:30,20.119.102.73,Dulles Town Center,AS8075 Microsoft Corporation,completions-nightly,000,curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to mft.rrc.texas.gov:443
+2026-10-17 18:30,20.119.102.73,Dulles Town Center,AS8075 Microsoft Corporation,p5-organization,000,curl: (35) OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to mft.rrc.texas.gov:443
