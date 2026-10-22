@@ -203,3 +203,6 @@ curl: (28) Connection timed out afte"
 2026-10-22 04:43,48.217.59.193,Dulles Town Center,AS8075 Microsoft Corporation,drilling-permits-daily,200,
 2026-10-22 04:43,48.217.59.193,Dulles Town Center,AS8075 Microsoft Corporation,completions-nightly,200,
 2026-10-22 04:43,48.217.59.193,Dulles Town Center,AS8075 Microsoft Corporation,p5-organization,200,
+2026-10-22 12:00,20.169.60.80,Phoenix,AS8075 Microsoft Corporation,drilling-permits-daily,200,
+2026-10-22 12:00,20.169.60.80,Phoenix,AS8075 Microsoft Corporation,completions-nightly,200,
+2026-10-22 12:00,20.169.60.80,Phoenix,AS8075 Microsoft Corporation,p5-organization,200,
