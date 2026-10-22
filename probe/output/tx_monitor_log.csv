@@ -215,3 +215,6 @@ curl: (28) Connection timed out afte"
 2026-10-22 17:10,172.183.131.67,Chicago,AS8075 Microsoft Corporation,p5-organization,000,"curl: (28) Connection timed out after 60002 milliseconds
 curl: (28) Connection timed out after 60002 milliseconds
 curl: (28) Connection timed out afte"
+2026-10-22 21:35,40.124.163.113,San Antonio,AS8075 Microsoft Corporation,drilling-permits-daily,200,
+2026-10-22 21:35,40.124.163.113,San Antonio,AS8075 Microsoft Corporation,completions-nightly,200,
+2026-10-22 21:35,40.124.163.113,San Antonio,AS8075 Microsoft Corporation,p5-organization,200,
