@@ -224,3 +224,6 @@ curl: (28) Connection timed out afte"
 2026-10-23 07:31,20.161.47.117,Boydton,AS8075 Microsoft Corporation,drilling-permits-daily,200,
 2026-10-23 07:31,20.161.47.117,Boydton,AS8075 Microsoft Corporation,completions-nightly,200,
 2026-10-23 07:31,20.161.47.117,Boydton,AS8075 Microsoft Corporation,p5-organization,200,
+2026-10-23 13:26,135.233.117.226,Des Moines,AS8075 Microsoft Corporation,drilling-permits-daily,200,
+2026-10-23 13:26,135.233.117.226,Des Moines,AS8075 Microsoft Corporation,completions-nightly,200,
+2026-10-23 13:26,135.233.117.226,Des Moines,AS8075 Microsoft Corporation,p5-organization,200,
