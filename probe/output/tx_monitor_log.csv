@@ -440,3 +440,6 @@ curl: (28) Connection timed out afte"
 2026-11-09 20:43,40.80.213.175,San Antonio,AS8075 Microsoft Corporation,drilling-permits-daily,200,
 2026-11-09 20:43,40.80.213.175,San Antonio,AS8075 Microsoft Corporation,completions-nightly,200,
 2026-11-09 20:43,40.80.213.175,San Antonio,AS8075 Microsoft Corporation,p5-organization,200,
+2026-11-10 04:06,52.242.219.177,Des Moines,AS8075 Microsoft Corporation,drilling-permits-daily,200,
+2026-11-10 04:06,52.242.219.177,Des Moines,AS8075 Microsoft Corporation,completions-nightly,200,
+2026-11-10 04:06,52.242.219.177,Des Moines,AS8075 Microsoft Corporation,p5-organization,200,
