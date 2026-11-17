@@ -512,3 +512,6 @@ curl: (28) Connection timed out afte"
 2026-11-16 18:31,134.33.77.28,Phoenix,AS8075 Microsoft Corporation,drilling-permits-daily,200,
 2026-11-16 18:31,134.33.77.28,Phoenix,AS8075 Microsoft Corporation,completions-nightly,200,
 2026-11-16 18:31,134.33.77.28,Phoenix,AS8075 Microsoft Corporation,p5-organization,200,
+2026-11-17 02:55,20.55.162.194,Cheyenne,AS8075 Microsoft Corporation,drilling-permits-daily,000,curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+2026-11-17 02:55,20.55.162.194,Cheyenne,AS8075 Microsoft Corporation,completions-nightly,000,curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+2026-11-17 02:55,20.55.162.194,Cheyenne,AS8075 Microsoft Corporation,p5-organization,000,curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
