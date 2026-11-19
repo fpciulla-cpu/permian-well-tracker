@@ -533,3 +533,6 @@ curl: (28) Connection timed out afte"
 2026-11-19 10:19,172.214.47.40,Dulles Town Center,AS8075 Microsoft Corporation,drilling-permits-daily,000,curl: (35) Send failure: Broken pipe
 2026-11-19 10:19,172.214.47.40,Dulles Town Center,AS8075 Microsoft Corporation,completions-nightly,000,curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
 2026-11-19 10:19,172.214.47.40,Dulles Town Center,AS8075 Microsoft Corporation,p5-organization,000,curl: (35) Send failure: Broken pipe
+2026-11-19 20:35,52.176.38.48,Des Moines,AS8075 Microsoft Corporation,drilling-permits-daily,200,
+2026-11-19 20:35,52.176.38.48,Des Moines,AS8075 Microsoft Corporation,completions-nightly,200,
+2026-11-19 20:35,52.176.38.48,Des Moines,AS8075 Microsoft Corporation,p5-organization,200,
