@@ -530,3 +530,6 @@ curl: (28) Connection timed out afte"
 2026-11-19 00:27,3.42.157.107,Boardman,"AS16509 Amazon.com, Inc.",drilling-permits-daily,200,
 2026-11-19 00:27,3.42.157.107,Boardman,"AS16509 Amazon.com, Inc.",completions-nightly,200,
 2026-11-19 00:27,3.42.157.107,Boardman,"AS16509 Amazon.com, Inc.",p5-organization,200,
+2026-11-19 10:19,172.214.47.40,Dulles Town Center,AS8075 Microsoft Corporation,drilling-permits-daily,000,curl: (35) Send failure: Broken pipe
+2026-11-19 10:19,172.214.47.40,Dulles Town Center,AS8075 Microsoft Corporation,completions-nightly,000,curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+2026-11-19 10:19,172.214.47.40,Dulles Town Center,AS8075 Microsoft Corporation,p5-organization,000,curl: (35) Send failure: Broken pipe
