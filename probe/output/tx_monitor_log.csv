@@ -560,3 +560,6 @@ curl: (28) Connection timed out afte"
 2026-11-22 09:48,20.161.71.50,Boydton,AS8075 Microsoft Corporation,drilling-permits-daily,000,curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
 2026-11-22 09:48,20.161.71.50,Boydton,AS8075 Microsoft Corporation,completions-nightly,000,curl: (35) Send failure: Broken pipe
 2026-11-22 09:48,20.161.71.50,Boydton,AS8075 Microsoft Corporation,p5-organization,000,curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading
+2026-11-22 17:49,20.169.113.186,Phoenix,AS8075 Microsoft Corporation,drilling-permits-daily,500,
+2026-11-22 17:49,20.169.113.186,Phoenix,AS8075 Microsoft Corporation,completions-nightly,500,
+2026-11-22 17:49,20.169.113.186,Phoenix,AS8075 Microsoft Corporation,p5-organization,500,
